@@ -1,0 +1,9 @@
+{
+  "timestamp": "2026-09-01T23:02:27.792735",
+  "metrics": {
+    "contact_rate_improvement": NaN,
+    "recovery_improvement_def1": -4.0,
+    "recovery_improvement_def2": NaN,
+    "recovery_improvement_def3": 0.2
+  }
+}

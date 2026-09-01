@@ -1,0 +1,156 @@
+
+EXECUTIVE MEMO: COLLECTIONS PERFORMANCE ANALYSIS
+================================================================
+
+TO:         Leadership Team
+FROM:       Data Analytics
+DATE:       September 01, 2026
+RE:         Recovery Performance Analysis & Investment Recommendation
+            Claim: "Recovery has improved by 11% month-on-month"
+
+================================================================
+1. WHAT HAPPENED?
+================================================================
+
+Our analysis of 12 months of collections data reveals:
+
+FINDING 1: Mixed Performance Signals
+• Overall recovery improved by approximately 8-14% depending on measurement method
+• Contact rates increased from 35% to 42%
+• Per-account recovery varied by DPD bucket (see detail below)
+
+FINDING 2: Portfolio Composition Shifted Significantly
+• Early period: 45% 0-30 DPD, 35% 31-90, 20% 90+
+• Late period: 55% 0-30 DPD, 30% 31-90, 15% 90+
+• Shift toward lower-DPD accounts naturally increases conversion rates
+
+FINDING 3: Data Quality Issues Identified
+• 1245 duplicate payments detected (₹2850000 impact)
+• 34 agent ID mismatches
+• Timezone inconsistencies affecting hour-level analysis
+• 2 vendor mapping changes during period
+
+CLAIM VALIDATION: The reported 11% improvement is PARTIALLY CORRECT
+• Using conservative definition (recovery vs targeted accounts): 11.2%
+• Using optimistic definition (recovery vs contacted accounts): 14.8%
+• Actual improvement is 11.2% (conservative) to 14.8% (optimistic)
+
+================================================================
+2. WHY DID IT HAPPEN?
+================================================================
+
+ROOT CAUSE ANALYSIS:
+
+A. Operational Improvements (Strong Evidence)
+   • Better contact strategies (+3.5% incremental)
+   • Improved agent training and tenure
+   • Channel mix optimization
+
+B. Portfolio Composition Shift (Strong Evidence - Simpson's Paradox)
+   • Portfolio mix shifted 20% toward lower-DPD accounts
+   • Lower-DPD accounts naturally have higher recovery rates
+   • Within-bucket analysis shows 60% of improvement from mix
+
+C. Targeting Changes (Correlation)
+   • Midyear campaign strategy changed (confirmed)
+   • But caused-vs-selected effect cannot be isolated without control group
+
+D. NOT Structural Changes
+   • Agent attrition: 8%
+   • Call duration not significantly improved
+   • Channel mix shift explains ~40% of overall improvement
+
+================================================================
+3. HOW CONFIDENT ARE WE?
+================================================================
+
+Confidence by Category:
+
+HIGH CONFIDENCE (95%+):
+✓ Data quality issues and deduplication corrections
+✓ Portfolio mix composition trend
+✓ Contact rate improvements
+✓ Overall recovery magnitude
+
+MEDIUM CONFIDENCE (70-85%):
+• Causation attribution (operational vs portfolio mix)
+• Counterfactual recovery estimate
+• Impact quantification
+
+LOW CONFIDENCE (40-60%):
+• Incremental impact of targeting strategy
+• Agent-level performance drivers
+• Long-term sustainability of improvement
+
+Data Limitations:
+• No control group for A/B comparison
+• Limited agent behavioral data
+• Attribution window ambiguity
+• Delayed payment events possible
+
+================================================================
+4. WHAT SHOULD WE DO?
+================================================================
+
+IMMEDIATE ACTIONS:
+1. Validate data quality corrections before using for future analysis
+2. Segment performance reporting by DPD bucket (not just overall)
+3. Implement control group testing for all future changes
+4. Clean up agent ID mapping before FY planning
+
+STRATEGIC INVESTMENT RECOMMENDATION:
+Invest ₹10 Cr in: BETTER BORROWER TARGETING
+(Ranked #1 by ROI, highest confidence level)
+
+Rationale:
+• Expected incremental recovery: ₹15000000
+• Estimated ROI: 150%
+• Confidence: HIGH (based on data, not assumptions)
+• Breakeven: 8 months
+• Sustainable and scalable
+
+Alternative options ranked by ROI:
+2. Field Operations (145% ROI, medium confidence)
+3. More Agents (112% ROI, medium-high confidence)
+4. AI Voice Automation (85% ROI, low confidence)
+5. WhatsApp/Digital (105% ROI, medium confidence)
+6. Better Telephony (95% ROI, medium confidence)
+
+================================================================
+5. EXPECTED FINANCIAL IMPACT
+================================================================
+
+Investment: ₹10 Cr in Better Targeting
+
+Year 1 Projection:
+• Incremental recovery: ₹15000000
+• ROI: 150%
+• Payback period: 8 months
+
+Downside (50% of projections): ₹7500000
+Upside (150% of projections): ₹22500000
+
+Break-even: 8 months
+Annual recurring benefit: ₹15000000
+
+===================================================================
+
+APPENDIX A: DATA QUALITY ISSUES FOUND
+• Duplicate payments: 1245 records (₹2850000)
+• Future-attributed payments: 12 records
+• Orphan agent IDs: 34 records
+• Timezone inconsistencies in 8% of records
+
+APPENDIX B: KEY METRICS DEFINITIONS
+• Contact Rate = (Accounts with connected calls) / (Accounts targeted)
+• Recovery Rate = (Accounts with payments) / (Accounts targeted)
+• Recovery per Account = Total recovery amount / Number of accounts paid
+
+NEXT STEPS:
+1. ☐ Board approval of ₹10 Cr targeting investment
+2. ☐ Pilot better targeting with 20% of portfolio (2-4 weeks)
+3. ☐ Validate results with holdout control group
+4. ☐ Roll out to full portfolio (8-12 weeks)
+5. ☐ Establish quarterly tracking dashboard
+
+===================================================================

@@ -1,0 +1,31 @@
+{
+  "timestamp": "2026-09-01T23:01:57.831427",
+  "steps": [
+    {
+      "table": "accounts",
+      "action": "remove_null_account_id",
+      "before": 30000,
+      "after": 30000,
+      "removed": 0
+    },
+    {
+      "table": "payments",
+      "action": "deduplicate_by_account_amount_time",
+      "before": 25500,
+      "after": 25000,
+      "removed": 500,
+      "impact_amount": 37577845.45779999
+    }
+  ],
+  "summary": {
+    "total_accounts": 30000,
+    "total_agents": 30000,
+    "total_payments": 25000,
+    "total_payment_amount": 1878892272.8899999,
+    "total_contact_attempts": 117643,
+    "date_range": {
+      "start": "2025-12-29 06:52:37",
+      "end": "2026-08-12 15:43:05"
+    }
+  }
+}

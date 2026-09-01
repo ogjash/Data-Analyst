@@ -1,0 +1,1199 @@
+{
+  "account_status_history": {
+    "shape": [
+      60000,
+      8
+    ],
+    "rows": 60000,
+    "columns": 8,
+    "memory_mb": 27.733509063720703,
+    "columns_info": {
+      "history_id": {
+        "dtype": "str",
+        "nulls": 0,
+        "null_pct": 0.0,
+        "unique": 60000
+      },
+      "account_id": {
+        "dtype": "str",
+        "nulls": 0,
+        "null_pct": 0.0,
+        "unique": 25999
+      },
+      "borrower_id": {
+        "dtype": "str",
+        "nulls": 0,
+        "null_pct": 0.0,
+        "unique": 11916
+      },
+      "event_at": {
+        "dtype": "str",
+        "nulls": 0,
+        "null_pct": 0.0,
+        "unique": 59898
+      },
+      "status": {
+        "dtype": "str",
+        "nulls": 0,
+        "null_pct": 0.0,
+        "unique": 7
+      },
+      "changed_by": {
+        "dtype": "str",
+        "nulls": 0,
+        "null_pct": 0.0,
+        "unique": 101
+      },
+      "source": {
+        "dtype": "str",
+        "nulls": 0,
+        "null_pct": 0.0,
+        "unique": 5
+      },
+      "recorded_at": {
+        "dtype": "str",
+        "nulls": 0,
+        "null_pct": 0.0,
+        "unique": 59906
+      }
+    },
+    "duplicates": {
+      "total_rows": 60000,
+      "unique_rows": 60000,
+      "duplicate_rows": 0
+    }
+  },
+  "accounts": {
+    "shape": [
+      30000,
+      11
+    ],
+    "rows": 30000,
+    "columns": 11,
+    "memory_mb": 13.78773307800293,
+    "columns_info": {
+      "account_id": {
+        "dtype": "str",
+        "nulls": 0,
+        "null_pct": 0.0,
+        "unique": 30000
+      },
+      "borrower_id": {
+        "dtype": "str",
+        "nulls": 455,
+        "null_pct": 1.5166666666666666,
+        "unique": 10943
+      },
+      "loan_type": {
+        "dtype": "str",
+        "nulls": 0,
+        "null_pct": 0.0,
+        "unique": 5
+      },
+      "principal_amount": {
+        "dtype": "float64",
+        "nulls": 0,
+        "null_pct": 0.0,
+        "unique": 29996,
+        "min": 10055.11,
+        "max": 799968.38,
+        "mean": 403455.5217846667
+      },
+      "outstanding_amount": {
+        "dtype": "float64",
+        "nulls": 0,
+        "null_pct": 0.0,
+        "unique": 29994,
+        "min": 1002.67,
+        "max": 699963.89,
+        "mean": 349634.51143333333
+      },
+      "dpd": {
+        "dtype": "int64",
+        "nulls": 0,
+        "null_pct": 0.0,
+        "unique": 11,
+        "min": 0.0,
+        "max": 180.0,
+        "mean": 56.506433333333334
+      },
+      "risk_segment": {
+        "dtype": "str",
+        "nulls": 0,
+        "null_pct": 0.0,
+        "unique": 4
+      },
+      "status": {
+        "dtype": "str",
+        "nulls": 0,
+        "null_pct": 0.0,
+        "unique": 4
+      },
+      "opened_at": {
+        "dtype": "str",
+        "nulls": 0,
+        "null_pct": 0.0,
+        "unique": 29993
+      },
+      "timezone": {
+        "dtype": "str",
+        "nulls": 0,
+        "null_pct": 0.0,
+        "unique": 3
+      },
+      "schema_version": {
+        "dtype": "str",
+        "nulls": 0,
+        "null_pct": 0.0,
+        "unique": 3
+      }
+    },
+    "duplicates": {
+      "total_rows": 30000,
+      "unique_rows": 30000,
+      "duplicate_rows": 0
+    }
+  },
+  "agent_sessions": {
+    "shape": [
+      15000,
+      7
+    ],
+    "rows": 15000,
+    "columns": 7,
+    "memory_mb": 6.033714294433594,
+    "columns_info": {
+      "session_id": {
+        "dtype": "str",
+        "nulls": 0,
+        "null_pct": 0.0,
+        "unique": 15000
+      },
+      "agent_id": {
+        "dtype": "str",
+        "nulls": 0,
+        "null_pct": 0.0,
+        "unique": 1000
+      },
+      "login_at": {
+        "dtype": "str",
+        "nulls": 0,
+        "null_pct": 0.0,
+        "unique": 14996
+      },
+      "channel": {
+        "dtype": "str",
+        "nulls": 0,
+        "null_pct": 0.0,
+        "unique": 4
+      },
+      "device_id": {
+        "dtype": "str",
+        "nulls": 0,
+        "null_pct": 0.0,
+        "unique": 1500
+      },
+      "timezone": {
+        "dtype": "str",
+        "nulls": 0,
+        "null_pct": 0.0,
+        "unique": 2
+      },
+      "logout_at": {
+        "dtype": "str",
+        "nulls": 0,
+        "null_pct": 0.0,
+        "unique": 14996
+      }
+    },
+    "duplicates": {
+      "total_rows": 15000,
+      "unique_rows": 15000,
+      "duplicate_rows": 0
+    }
+  },
+  "agents": {
+    "shape": [
+      30000,
+      8
+    ],
+    "rows": 30000,
+    "columns": 8,
+    "memory_mb": 13.725549697875977,
+    "columns_info": {
+      "agent_id": {
+        "dtype": "str",
+        "nulls": 0,
+        "null_pct": 0.0,
+        "unique": 1000
+      },
+      "employee_code": {
+        "dtype": "str",
+        "nulls": 0,
+        "null_pct": 0.0,
+        "unique": 1099
+      },
+      "agent_name": {
+        "dtype": "str",
+        "nulls": 0,
+        "null_pct": 0.0,
+        "unique": 10
+      },
+      "vendor_id": {
+        "dtype": "str",
+        "nulls": 0,
+        "null_pct": 0.0,
+        "unique": 15
+      },
+      "team": {
+        "dtype": "str",
+        "nulls": 0,
+        "null_pct": 0.0,
+        "unique": 5
+      },
+      "status": {
+        "dtype": "str",
+        "nulls": 0,
+        "null_pct": 0.0,
+        "unique": 3
+      },
+      "joined_at": {
+        "dtype": "str",
+        "nulls": 0,
+        "null_pct": 0.0,
+        "unique": 29995
+      },
+      "updated_at": {
+        "dtype": "str",
+        "nulls": 0,
+        "null_pct": 0.0,
+        "unique": 29987
+      }
+    },
+    "duplicates": {
+      "total_rows": 30000,
+      "unique_rows": 30000,
+      "duplicate_rows": 0
+    }
+  },
+  "borrowers": {
+    "shape": [
+      30600,
+      8
+    ],
+    "rows": 30600,
+    "columns": 8,
+    "memory_mb": 12.98123836517334,
+    "columns_info": {
+      "borrower_id": {
+        "dtype": "str",
+        "nulls": 0,
+        "null_pct": 0.0,
+        "unique": 11015
+      },
+      "name": {
+        "dtype": "str",
+        "nulls": 0,
+        "null_pct": 0.0,
+        "unique": 10
+      },
+      "phone": {
+        "dtype": "float64",
+        "nulls": 614,
+        "null_pct": 2.0065359477124183,
+        "unique": 29395,
+        "min": 9000004704.0,
+        "max": 9999938435.0,
+        "mean": 9499667223.405088
+      },
+      "email": {
+        "dtype": "str",
+        "nulls": 895,
+        "null_pct": 2.9248366013071894,
+        "unique": 15377
+      },
+      "city": {
+        "dtype": "str",
+        "nulls": 0,
+        "null_pct": 0.0,
+        "unique": 10
+      },
+      "created_at": {
+        "dtype": "str",
+        "nulls": 0,
+        "null_pct": 0.0,
+        "unique": 29997
+      },
+      "updated_at": {
+        "dtype": "str",
+        "nulls": 0,
+        "null_pct": 0.0,
+        "unique": 29991
+      },
+      "state": {
+        "dtype": "str",
+        "nulls": 0,
+        "null_pct": 0.0,
+        "unique": 9
+      }
+    },
+    "duplicates": {
+      "total_rows": 30600,
+      "unique_rows": 30000,
+      "duplicate_rows": 600
+    }
+  },
+  "call_attempts": {
+    "shape": [
+      120000,
+      9
+    ],
+    "rows": 120000,
+    "columns": 9,
+    "memory_mb": 56.1290168762207,
+    "columns_info": {
+      "attempt_id": {
+        "dtype": "str",
+        "nulls": 0,
+        "null_pct": 0.0,
+        "unique": 120000
+      },
+      "account_id": {
+        "dtype": "str",
+        "nulls": 0,
+        "null_pct": 0.0,
+        "unique": 29451
+      },
+      "borrower_id": {
+        "dtype": "str",
+        "nulls": 0,
+        "null_pct": 0.0,
+        "unique": 12000
+      },
+      "event_at": {
+        "dtype": "str",
+        "nulls": 0,
+        "null_pct": 0.0,
+        "unique": 119605
+      },
+      "call_id": {
+        "dtype": "str",
+        "nulls": 0,
+        "null_pct": 0.0,
+        "unique": 66244
+      },
+      "agent_id": {
+        "dtype": "str",
+        "nulls": 0,
+        "null_pct": 0.0,
+        "unique": 1000
+      },
+      "attempt_no": {
+        "dtype": "int64",
+        "nulls": 0,
+        "null_pct": 0.0,
+        "unique": 7,
+        "min": 1.0,
+        "max": 7.0,
+        "mean": 4.002458333333333
+      },
+      "vendor_id": {
+        "dtype": "str",
+        "nulls": 2400,
+        "null_pct": 2.0,
+        "unique": 15
+      },
+      "attempt_status": {
+        "dtype": "str",
+        "nulls": 0,
+        "null_pct": 0.0,
+        "unique": 5
+      }
+    },
+    "duplicates": {
+      "total_rows": 120000,
+      "unique_rows": 120000,
+      "duplicate_rows": 0
+    }
+  },
+  "call_dispositions": {
+    "shape": [
+      35000,
+      8
+    ],
+    "rows": 35000,
+    "columns": 8,
+    "memory_mb": 16.078739166259766,
+    "columns_info": {
+      "disposition_id": {
+        "dtype": "str",
+        "nulls": 0,
+        "null_pct": 0.0,
+        "unique": 35000
+      },
+      "account_id": {
+        "dtype": "str",
+        "nulls": 0,
+        "null_pct": 0.0,
+        "unique": 20603
+      },
+      "borrower_id": {
+        "dtype": "str",
+        "nulls": 0,
+        "null_pct": 0.0,
+        "unique": 11359
+      },
+      "event_at": {
+        "dtype": "str",
+        "nulls": 0,
+        "null_pct": 0.0,
+        "unique": 34966
+      },
+      "call_id": {
+        "dtype": "str",
+        "nulls": 0,
+        "null_pct": 0.0,
+        "unique": 28971
+      },
+      "agent_id": {
+        "dtype": "str",
+        "nulls": 0,
+        "null_pct": 0.0,
+        "unique": 1000
+      },
+      "disposition_code": {
+        "dtype": "str",
+        "nulls": 0,
+        "null_pct": 0.0,
+        "unique": 9
+      },
+      "disposition_version": {
+        "dtype": "str",
+        "nulls": 0,
+        "null_pct": 0.0,
+        "unique": 3
+      }
+    },
+    "duplicates": {
+      "total_rows": 35000,
+      "unique_rows": 35000,
+      "duplicate_rows": 0
+    }
+  },
+  "calls": {
+    "shape": [
+      91350,
+      11
+    ],
+    "rows": 91350,
+    "columns": 11,
+    "memory_mb": 52.35089588165283,
+    "columns_info": {
+      "call_id": {
+        "dtype": "str",
+        "nulls": 0,
+        "null_pct": 0.0,
+        "unique": 90000
+      },
+      "account_id": {
+        "dtype": "str",
+        "nulls": 0,
+        "null_pct": 0.0,
+        "unique": 28408
+      },
+      "borrower_id": {
+        "dtype": "str",
+        "nulls": 0,
+        "null_pct": 0.0,
+        "unique": 11992
+      },
+      "event_at": {
+        "dtype": "str",
+        "nulls": 0,
+        "null_pct": 0.0,
+        "unique": 89796
+      },
+      "agent_id": {
+        "dtype": "str",
+        "nulls": 1827,
+        "null_pct": 2.0,
+        "unique": 1000
+      },
+      "campaign_id": {
+        "dtype": "str",
+        "nulls": 0,
+        "null_pct": 0.0,
+        "unique": 120
+      },
+      "direction": {
+        "dtype": "str",
+        "nulls": 0,
+        "null_pct": 0.0,
+        "unique": 2
+      },
+      "vendor_id": {
+        "dtype": "str",
+        "nulls": 0,
+        "null_pct": 0.0,
+        "unique": 15
+      },
+      "call_status": {
+        "dtype": "str",
+        "nulls": 0,
+        "null_pct": 0.0,
+        "unique": 5
+      },
+      "duration_sec": {
+        "dtype": "int64",
+        "nulls": 0,
+        "null_pct": 0.0,
+        "unique": 900,
+        "min": 0.0,
+        "max": 899.0,
+        "mean": 451.15890530925014
+      },
+      "timezone": {
+        "dtype": "str",
+        "nulls": 0,
+        "null_pct": 0.0,
+        "unique": 3
+      }
+    },
+    "duplicates": {
+      "total_rows": 91350,
+      "unique_rows": 90079,
+      "duplicate_rows": 1271
+    }
+  },
+  "campaigns": {
+    "shape": [
+      120,
+      7
+    ],
+    "rows": 120,
+    "columns": 7,
+    "memory_mb": 0.04799365997314453,
+    "columns_info": {
+      "campaign_id": {
+        "dtype": "str",
+        "nulls": 0,
+        "null_pct": 0.0,
+        "unique": 120
+      },
+      "campaign_name": {
+        "dtype": "str",
+        "nulls": 0,
+        "null_pct": 0.0,
+        "unique": 5
+      },
+      "channel": {
+        "dtype": "str",
+        "nulls": 0,
+        "null_pct": 0.0,
+        "unique": 5
+      },
+      "strategy_version": {
+        "dtype": "str",
+        "nulls": 0,
+        "null_pct": 0.0,
+        "unique": 4
+      },
+      "start_at": {
+        "dtype": "str",
+        "nulls": 0,
+        "null_pct": 0.0,
+        "unique": 120
+      },
+      "target_definition": {
+        "dtype": "str",
+        "nulls": 0,
+        "null_pct": 0.0,
+        "unique": 5
+      },
+      "end_at": {
+        "dtype": "str",
+        "nulls": 0,
+        "null_pct": 0.0,
+        "unique": 120
+      }
+    },
+    "duplicates": {
+      "total_rows": 120,
+      "unique_rows": 120,
+      "duplicate_rows": 0
+    }
+  },
+  "complaints": {
+    "shape": [
+      8000,
+      9
+    ],
+    "rows": 8000,
+    "columns": 9,
+    "memory_mb": 4.134014129638672,
+    "columns_info": {
+      "complaint_id": {
+        "dtype": "str",
+        "nulls": 0,
+        "null_pct": 0.0,
+        "unique": 8000
+      },
+      "account_id": {
+        "dtype": "str",
+        "nulls": 0,
+        "null_pct": 0.0,
+        "unique": 7034
+      },
+      "borrower_id": {
+        "dtype": "str",
+        "nulls": 0,
+        "null_pct": 0.0,
+        "unique": 5839
+      },
+      "event_at": {
+        "dtype": "str",
+        "nulls": 0,
+        "null_pct": 0.0,
+        "unique": 7997
+      },
+      "complaint_type": {
+        "dtype": "str",
+        "nulls": 0,
+        "null_pct": 0.0,
+        "unique": 7
+      },
+      "severity": {
+        "dtype": "str",
+        "nulls": 0,
+        "null_pct": 0.0,
+        "unique": 4
+      },
+      "status": {
+        "dtype": "str",
+        "nulls": 0,
+        "null_pct": 0.0,
+        "unique": 4
+      },
+      "source": {
+        "dtype": "str",
+        "nulls": 0,
+        "null_pct": 0.0,
+        "unique": 5
+      },
+      "resolution_at": {
+        "dtype": "str",
+        "nulls": 0,
+        "null_pct": 0.0,
+        "unique": 7998
+      }
+    },
+    "duplicates": {
+      "total_rows": 8000,
+      "unique_rows": 8000,
+      "duplicate_rows": 0
+    }
+  },
+  "daily_targeting": {
+    "shape": [
+      45000,
+      7
+    ],
+    "rows": 45000,
+    "columns": 7,
+    "memory_mb": 15.213615417480469,
+    "columns_info": {
+      "target_id": {
+        "dtype": "str",
+        "nulls": 0,
+        "null_pct": 0.0,
+        "unique": 45000
+      },
+      "account_id": {
+        "dtype": "str",
+        "nulls": 0,
+        "null_pct": 0.0,
+        "unique": 23344
+      },
+      "campaign_id": {
+        "dtype": "str",
+        "nulls": 0,
+        "null_pct": 0.0,
+        "unique": 120
+      },
+      "target_date": {
+        "dtype": "str",
+        "nulls": 0,
+        "null_pct": 0.0,
+        "unique": 220
+      },
+      "priority": {
+        "dtype": "int64",
+        "nulls": 0,
+        "null_pct": 0.0,
+        "unique": 10,
+        "min": 1.0,
+        "max": 10.0,
+        "mean": 5.5056
+      },
+      "recommended_channel": {
+        "dtype": "str",
+        "nulls": 0,
+        "null_pct": 0.0,
+        "unique": 4
+      },
+      "status": {
+        "dtype": "str",
+        "nulls": 0,
+        "null_pct": 0.0,
+        "unique": 4
+      }
+    },
+    "duplicates": {
+      "total_rows": 45000,
+      "unique_rows": 45000,
+      "duplicate_rows": 0
+    }
+  },
+  "data_dictionary": {
+    "shape": [
+      143,
+      3
+    ],
+    "rows": 143,
+    "columns": 3,
+    "memory_mb": 0.02411365509033203,
+    "columns_info": {
+      "dataset": {
+        "dtype": "str",
+        "nulls": 0,
+        "null_pct": 0.0,
+        "unique": 17
+      },
+      "column": {
+        "dtype": "str",
+        "nulls": 0,
+        "null_pct": 0.0,
+        "unique": 80
+      },
+      "dtype": {
+        "dtype": "str",
+        "nulls": 0,
+        "null_pct": 0.0,
+        "unique": 4
+      }
+    },
+    "duplicates": {
+      "total_rows": 143,
+      "unique_rows": 143,
+      "duplicate_rows": 0
+    }
+  },
+  "field_visits": {
+    "shape": [
+      25000,
+      10
+    ],
+    "rows": 25000,
+    "columns": 10,
+    "memory_mb": 12.036175727844238,
+    "columns_info": {
+      "visit_id": {
+        "dtype": "str",
+        "nulls": 0,
+        "null_pct": 0.0,
+        "unique": 25000
+      },
+      "account_id": {
+        "dtype": "str",
+        "nulls": 0,
+        "null_pct": 0.0,
+        "unique": 16908
+      },
+      "borrower_id": {
+        "dtype": "str",
+        "nulls": 0,
+        "null_pct": 0.0,
+        "unique": 10537
+      },
+      "event_at": {
+        "dtype": "str",
+        "nulls": 0,
+        "null_pct": 0.0,
+        "unique": 24973
+      },
+      "agent_id": {
+        "dtype": "str",
+        "nulls": 0,
+        "null_pct": 0.0,
+        "unique": 1000
+      },
+      "visit_type": {
+        "dtype": "str",
+        "nulls": 0,
+        "null_pct": 0.0,
+        "unique": 4
+      },
+      "outcome": {
+        "dtype": "str",
+        "nulls": 0,
+        "null_pct": 0.0,
+        "unique": 6
+      },
+      "latitude": {
+        "dtype": "float64",
+        "nulls": 0,
+        "null_pct": 0.0,
+        "unique": 25000,
+        "min": 8.00029745776517,
+        "max": 34.99901493027116,
+        "mean": 21.470901529700775
+      },
+      "longitude": {
+        "dtype": "float64",
+        "nulls": 0,
+        "null_pct": 0.0,
+        "unique": 25000,
+        "min": 68.00027953764214,
+        "max": 89.99773948383324,
+        "mean": 78.99375408002804
+      },
+      "scheduled_at": {
+        "dtype": "str",
+        "nulls": 250,
+        "null_pct": 1.0,
+        "unique": 24730
+      }
+    },
+    "duplicates": {
+      "total_rows": 25000,
+      "unique_rows": 25000,
+      "duplicate_rows": 0
+    }
+  },
+  "payments": {
+    "shape": [
+      25500,
+      9
+    ],
+    "rows": 25500,
+    "columns": 9,
+    "memory_mb": 11.854185104370117,
+    "columns_info": {
+      "payment_id": {
+        "dtype": "str",
+        "nulls": 0,
+        "null_pct": 0.0,
+        "unique": 25000
+      },
+      "account_id": {
+        "dtype": "str",
+        "nulls": 0,
+        "null_pct": 0.0,
+        "unique": 16934
+      },
+      "borrower_id": {
+        "dtype": "str",
+        "nulls": 0,
+        "null_pct": 0.0,
+        "unique": 10474
+      },
+      "event_at": {
+        "dtype": "str",
+        "nulls": 0,
+        "null_pct": 0.0,
+        "unique": 24984
+      },
+      "payment_reference": {
+        "dtype": "str",
+        "nulls": 382,
+        "null_pct": 1.4980392156862745,
+        "unique": 20821
+      },
+      "amount": {
+        "dtype": "float64",
+        "nulls": 0,
+        "null_pct": 0.0,
+        "unique": 24979,
+        "min": 103.68,
+        "max": 149993.55,
+        "mean": 75186.61243725491
+      },
+      "payment_status": {
+        "dtype": "str",
+        "nulls": 0,
+        "null_pct": 0.0,
+        "unique": 4
+      },
+      "payment_method": {
+        "dtype": "str",
+        "nulls": 0,
+        "null_pct": 0.0,
+        "unique": 5
+      },
+      "provider_id": {
+        "dtype": "str",
+        "nulls": 0,
+        "null_pct": 0.0,
+        "unique": 15
+      }
+    },
+    "duplicates": {
+      "total_rows": 25500,
+      "unique_rows": 25014,
+      "duplicate_rows": 486
+    }
+  },
+  "promises_to_pay": {
+    "shape": [
+      18000,
+      9
+    ],
+    "rows": 18000,
+    "columns": 9,
+    "memory_mb": 8.390222549438477,
+    "columns_info": {
+      "ptp_id": {
+        "dtype": "str",
+        "nulls": 0,
+        "null_pct": 0.0,
+        "unique": 18000
+      },
+      "account_id": {
+        "dtype": "str",
+        "nulls": 0,
+        "null_pct": 0.0,
+        "unique": 13532
+      },
+      "borrower_id": {
+        "dtype": "str",
+        "nulls": 0,
+        "null_pct": 0.0,
+        "unique": 9299
+      },
+      "event_at": {
+        "dtype": "str",
+        "nulls": 0,
+        "null_pct": 0.0,
+        "unique": 17990
+      },
+      "agent_id": {
+        "dtype": "str",
+        "nulls": 0,
+        "null_pct": 0.0,
+        "unique": 1000
+      },
+      "promised_amount": {
+        "dtype": "float64",
+        "nulls": 0,
+        "null_pct": 0.0,
+        "unique": 17983,
+        "min": 511.99,
+        "max": 99997.28,
+        "mean": 50233.838777777775
+      },
+      "promised_date": {
+        "dtype": "str",
+        "nulls": 0,
+        "null_pct": 0.0,
+        "unique": 17992
+      },
+      "status": {
+        "dtype": "str",
+        "nulls": 0,
+        "null_pct": 0.0,
+        "unique": 4
+      },
+      "source": {
+        "dtype": "str",
+        "nulls": 0,
+        "null_pct": 0.0,
+        "unique": 4
+      }
+    },
+    "duplicates": {
+      "total_rows": 18000,
+      "unique_rows": 18000,
+      "duplicate_rows": 0
+    }
+  },
+  "sms_events": {
+    "shape": [
+      45000,
+      8
+    ],
+    "rows": 45000,
+    "columns": 8,
+    "memory_mb": 20.85700035095215,
+    "columns_info": {
+      "sms_event_id": {
+        "dtype": "str",
+        "nulls": 0,
+        "null_pct": 0.0,
+        "unique": 45000
+      },
+      "account_id": {
+        "dtype": "str",
+        "nulls": 0,
+        "null_pct": 0.0,
+        "unique": 23207
+      },
+      "borrower_id": {
+        "dtype": "str",
+        "nulls": 0,
+        "null_pct": 0.0,
+        "unique": 11728
+      },
+      "event_at": {
+        "dtype": "str",
+        "nulls": 0,
+        "null_pct": 0.0,
+        "unique": 44949
+      },
+      "message_id": {
+        "dtype": "str",
+        "nulls": 0,
+        "null_pct": 0.0,
+        "unique": 27001
+      },
+      "event_type": {
+        "dtype": "str",
+        "nulls": 0,
+        "null_pct": 0.0,
+        "unique": 4
+      },
+      "template_code": {
+        "dtype": "str",
+        "nulls": 0,
+        "null_pct": 0.0,
+        "unique": 4
+      },
+      "provider_id": {
+        "dtype": "str",
+        "nulls": 0,
+        "null_pct": 0.0,
+        "unique": 15
+      }
+    },
+    "duplicates": {
+      "total_rows": 45000,
+      "unique_rows": 45000,
+      "duplicate_rows": 0
+    }
+  },
+  "vendor_telephony": {
+    "shape": [
+      15,
+      6
+    ],
+    "rows": 15,
+    "columns": 6,
+    "memory_mb": 0.004939079284667969,
+    "columns_info": {
+      "vendor_id": {
+        "dtype": "str",
+        "nulls": 0,
+        "null_pct": 0.0,
+        "unique": 15
+      },
+      "vendor_name": {
+        "dtype": "str",
+        "nulls": 0,
+        "null_pct": 0.0,
+        "unique": 5
+      },
+      "vendor_account_id": {
+        "dtype": "str",
+        "nulls": 0,
+        "null_pct": 0.0,
+        "unique": 15
+      },
+      "timezone": {
+        "dtype": "str",
+        "nulls": 0,
+        "null_pct": 0.0,
+        "unique": 2
+      },
+      "status": {
+        "dtype": "str",
+        "nulls": 0,
+        "null_pct": 0.0,
+        "unique": 2
+      },
+      "schema_version": {
+        "dtype": "str",
+        "nulls": 0,
+        "null_pct": 0.0,
+        "unique": 3
+      }
+    },
+    "duplicates": {
+      "total_rows": 15,
+      "unique_rows": 15,
+      "duplicate_rows": 0
+    }
+  },
+  "whatsapp_events": {
+    "shape": [
+      60600,
+      8
+    ],
+    "rows": 60600,
+    "columns": 8,
+    "memory_mb": 28.408390998840332,
+    "columns_info": {
+      "whatsapp_event_id": {
+        "dtype": "str",
+        "nulls": 0,
+        "null_pct": 0.0,
+        "unique": 60000
+      },
+      "account_id": {
+        "dtype": "str",
+        "nulls": 0,
+        "null_pct": 0.0,
+        "unique": 25924
+      },
+      "borrower_id": {
+        "dtype": "str",
+        "nulls": 0,
+        "null_pct": 0.0,
+        "unique": 11917
+      },
+      "event_at": {
+        "dtype": "str",
+        "nulls": 0,
+        "null_pct": 0.0,
+        "unique": 59892
+      },
+      "message_id": {
+        "dtype": "str",
+        "nulls": 0,
+        "null_pct": 0.0,
+        "unique": 34831
+      },
+      "event_type": {
+        "dtype": "str",
+        "nulls": 0,
+        "null_pct": 0.0,
+        "unique": 6
+      },
+      "template_code": {
+        "dtype": "str",
+        "nulls": 0,
+        "null_pct": 0.0,
+        "unique": 5
+      },
+      "provider_id": {
+        "dtype": "str",
+        "nulls": 0,
+        "null_pct": 0.0,
+        "unique": 15
+      }
+    },
+    "duplicates": {
+      "total_rows": 60600,
+      "unique_rows": 60000,
+      "duplicate_rows": 600
+    }
+  }
+}

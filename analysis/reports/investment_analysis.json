@@ -1,0 +1,56 @@
+{
+  "baseline": {
+    "total_recovery_12m": 1878892272.8899999,
+    "accounts": 30000,
+    "avg_per_account": 62629.742429666665
+  },
+  "options": {
+    "telephony": {
+      "investment": 1000000000,
+      "recovery_improvement": 150311381.8312,
+      "roi_pct": 15.03113818312,
+      "assumption": "8% recovery uplift from infrastructure"
+    },
+    "agents": {
+      "investment": 10000000000,
+      "recovery_improvement": 2391317438.223636,
+      "roi_pct": 23.91317438223636,
+      "assumption": "2000 agents at 70% productivity"
+    },
+    "ai": {
+      "investment": 10000000000,
+      "recovery_improvement": 225467072.74679998,
+      "roi_pct": 2.2546707274679996,
+      "assumption": "12% recovery uplift from automation"
+    },
+    "targeting": {
+      "investment": 10000000000,
+      "recovery_improvement": 281833840.9335,
+      "roi_pct": 2.818338409335,
+      "assumption": "15% recovery uplift from ML targeting"
+    },
+    "digital": {
+      "investment": 10000000000,
+      "recovery_improvement": 150311381.8312,
+      "roi_pct": 1.5031138183119999,
+      "assumption": "8% recovery uplift from digital channels"
+    },
+    "field": {
+      "investment": 10000000000,
+      "recovery_improvement": 206678150.0179,
+      "roi_pct": 2.0667815001789998,
+      "assumption": "11% recovery uplift from field visits"
+    }
+  },
+  "recommendation": {
+    "allocation": {
+      "targeting": 5000000000.0,
+      "agents": 2500000000.0,
+      "telephony": 1500000000.0,
+      "digital": 1000000000.0
+    },
+    "total_expected_recovery": 979244490.952579,
+    "blended_roi_pct": 9.79244490952579,
+    "payback_months": 122.54345172089523
+  }
+}
