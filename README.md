@@ -1,4 +1,4 @@
-# Collections Data Analyst Assignment - Complete Python Solution
+# Collections Data Analyst Assignment
 
 ## Overview
 
